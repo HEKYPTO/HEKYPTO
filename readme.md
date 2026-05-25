@@ -6,7 +6,7 @@
 
 **Systems-oriented software engineer working across infrastructure, software systems, and AI-aware applications.**
 
-My work is centered on the design and implementation of computational systems where correctness, performance, maintainability, and human-facing utility must be considered together. I am particularly interested in distributed services, search and game engines, optimization methods, applied AI/data pipelines, and full-stack software that exposes complex systems through usable interfaces.
+I build computational systems that balance correctness, performance, maintainability, and usable interfaces.
 
 [![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)](https://www.rust-lang.org/)
 [![Elixir](https://img.shields.io/badge/Elixir-4B275F?style=flat-square&logo=elixir&logoColor=white)](https://elixir-lang.org/)
