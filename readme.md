@@ -4,9 +4,9 @@
 
 # HEKPYTO
 
-**Systems-oriented software engineer building engines, solvers, infrastructure, and AI-aware software.**
+**Systems-oriented software engineer working across infrastructure, software systems, and AI-aware applications.**
 
-I like projects where correctness, performance, and product shape all matter: distributed services, game/search engines, optimization tools, applied AI/data pipelines, and full-stack systems that survive real use.
+My work is centered on the design and implementation of computational systems where correctness, performance, maintainability, and human-facing utility must be considered together. I am particularly interested in distributed services, search and game engines, optimization methods, applied AI/data pipelines, and full-stack software that exposes complex systems through usable interfaces.
 
 [![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)](https://www.rust-lang.org/)
 [![Elixir](https://img.shields.io/badge/Elixir-4B275F?style=flat-square&logo=elixir&logoColor=white)](https://elixir-lang.org/)
@@ -17,79 +17,67 @@ I like projects where correctness, performance, and product shape all matter: di
 
 </div>
 
-## Current Orbit
+## Technical Focus
 
-- Systems programming, distributed architecture, protocol design, and fault-tolerant services.
-- Engines, search, game logic, optimization, and algorithm-heavy problem solving.
-- AI/data work that ships as usable pipelines, evaluation tooling, or research prototypes.
-- Web software where the interface is only the surface of a deeper system.
+- Systems programming, distributed architecture, protocol design, and fault-tolerant service implementation.
+- Algorithmic systems, including game-state modeling, search procedures, constraint solving, and graph optimization.
+- Applied AI and data engineering, especially pipelines, evaluation workflows, and research-oriented prototypes.
+- Full-stack software in which interface design supports deeper computational or infrastructural behavior.
 
-## Featured Work
+## Selected Work
 
 ### Systems & Infrastructure
 
-| Project | Stack | What it explores |
-| --- | --- | --- |
-| [IRONFISH](https://github.com/HEKPYTO/IRONFISH) | Rust | Distributed chess analysis with internal clustering, engine pooling, and gRPC/REST/GraphQL surfaces. |
-| [ZOW](https://github.com/HEKPYTO/ZOW) | Zig | A GNU Stow-style dotfile manager implementation focused on low-level tooling and filesystem ergonomics. |
+- [IRONFISH](https://github.com/HEKPYTO/IRONFISH): A Rust-based distributed chess analysis system with internal clustering, engine pooling, and multiple service interfaces, including gRPC, REST, and GraphQL.
+- [ZOW](https://github.com/HEKPYTO/ZOW): A Zig implementation of GNU Stow-style dotfile management, with emphasis on filesystem-oriented tooling and reproducible local environments.
 
 ### Engines & Optimization
 
-| Project | Stack | What it explores |
-| --- | --- | --- |
-| [ECHECS](https://github.com/HEKPYTO/ECHECS) | Elixir | Chess library for legal move generation, FEN/PGN support, and game-state modeling. |
-| [SHAKMATY](https://github.com/HEKPYTO/SHAKMATY) | Java | Chess engine work built around computation-heavy game modeling and abstraction design. |
-| [Enclose-Horse-Solver](https://github.com/HEKPYTO/Enclose-Horse-Solver) | C# | CP-SAT solver for the Enclose Horse daily puzzle, including portals, scoring items, and autosolve workflows. |
-| [ALGOPRO](https://github.com/HEKPYTO/ALGOPRO) | Python | Optimization of all-pairs minimax path algorithms for AI coursework and algorithm analysis. |
+- [ECHECS](https://github.com/HEKPYTO/ECHECS): An Elixir chess library for legal move generation, FEN/PGN support, and explicit game-state representation.
+- [SHAKMATY](https://github.com/HEKPYTO/SHAKMATY): A Java chess engine project focused on computational modeling, abstraction design, and rule-driven state transitions.
+- [Enclose-Horse-Solver](https://github.com/HEKPYTO/Enclose-Horse-Solver): A C# CP-SAT solver for the Enclose Horse puzzle, modeling walls, portals, scoring items, autosolve workflows, and leaderboard submission.
+- [ALGOPRO](https://github.com/HEKPYTO/ALGOPRO): A Python project studying optimization of all-pairs minimax path algorithms in the context of algorithm analysis and artificial intelligence coursework.
 
-### Apps & Web Software
+### Applications & Web Systems
 
-| Project | Stack | What it explores |
-| --- | --- | --- |
-| [MiniBlog](https://github.com/HEKPYTO/MiniBlog) | Astro, SQLite | Self-hosted blog platform with Markdown editing, RBAC, and Open Graph image generation. |
-| [ChessClouds](https://github.com/HEKPYTO/ChessClouds) | TypeScript | Modern cloud-integrated chess web application. |
-| [SQUAREDLE-SOLVER](https://github.com/HEKPYTO/SQUAREDLE-SOLVER) | Elixir, Phoenix LiveView | Puzzle solver using DFS and prefix tries behind an interactive LiveView interface. |
-| [COMETH_FENZ](https://github.com/COMETH-TEAM/COMETH_FENZ) | TypeScript | Front end for COMETH, focused on making machine-translation evaluation workflows easier to use. |
+- [MiniBlog](https://github.com/HEKPYTO/MiniBlog): A self-hosted Astro and SQLite blog platform with Markdown editing, role-based access control, and Open Graph image generation.
+- [ChessClouds](https://github.com/HEKPYTO/ChessClouds): A TypeScript web application for cloud-integrated chess play and related service design.
+- [SQUAREDLE-SOLVER](https://github.com/HEKPYTO/SQUAREDLE-SOLVER): A Phoenix LiveView application using depth-first search and prefix tries for interactive puzzle solving.
+- [COMETH_FENZ](https://github.com/COMETH-TEAM/COMETH_FENZ): A TypeScript front end for COMETH, developed to support machine-translation evaluation workflows through a more accessible interface.
 
 ### AI, Data & Research
 
-| Project | Stack | What it explores |
-| --- | --- | --- |
-| [BTC-Genotype-Pipeline](https://github.com/HEKPYTO/BTC-Genotype-Pipeline) | Python | Bioinformatics pipeline for genotype association analysis, GENCODE mapping, and variant visualization. |
-| [MEET-MR](https://github.com/ChulaAI/MEET-MR) | Jupyter Notebook | AI research work through ChulaAI. |
+- [BTC-Genotype-Pipeline](https://github.com/HEKPYTO/BTC-Genotype-Pipeline): A Python bioinformatics pipeline for differential genotype association analysis, GENCODE mapping, and visualization of variant data.
+- [MEET-MR](https://github.com/ChulaAI/MEET-MR): Research-oriented AI work through ChulaAI, represented as notebook-based experimentation and analysis.
 
-### Selected Experiments
+### Academic & Conceptual Experiments
 
-| Project | Stack | What it explores |
-| --- | --- | --- |
-| [GITHUB-VCS](https://github.com/HEKPYTO/GITHUB-VCS) | Java | Version-control-system concept project and interface experiment. |
-| [NPUTASK](https://github.com/HEKPYTO/NPUTASK) | Java | NPU simulator project for inheritance and system modeling practice. |
-| [TORRENTINE](https://github.com/HEKPYTO/TORRENTINE) | Java | Torrent simulator project for object-oriented design and distributed-behavior modeling. |
+- [GITHUB-VCS](https://github.com/HEKPYTO/GITHUB-VCS): A Java version-control-system concept project exploring interface design and repository-oriented abstractions.
+- [NPUTASK](https://github.com/HEKPYTO/NPUTASK): A Java NPU simulator project for modeling inheritance, system behavior, and computational components.
+- [TORRENTINE](https://github.com/HEKPYTO/TORRENTINE): A Java torrent simulator project focused on object-oriented modeling of distributed behavior.
 
-## Toolbox
+## Methods & Tools
 
-| Area | Tools and interests |
-| --- | --- |
-| Systems | Rust, Zig, Elixir, Java, C#, Linux, Docker |
-| Backend & data | Python, Phoenix, REST, GraphQL, gRPC, SQLite, PostgreSQL |
-| Frontend | TypeScript, Astro, Svelte, Phoenix LiveView |
-| AI & research | Data pipelines, optimization, evaluation tooling, notebooks, applied ML workflows |
-| Interests | Chess engines, solvers, distributed systems, developer tools, AI infrastructure |
+- **Systems and infrastructure:** Rust, Zig, Elixir, Java, C#, Linux, Docker.
+- **Backend and data systems:** Python, Phoenix, REST, GraphQL, gRPC, SQLite, PostgreSQL.
+- **Frontend and interface development:** TypeScript, Astro, Svelte, Phoenix LiveView.
+- **AI and research workflows:** data pipelines, optimization, evaluation tooling, notebooks, and applied machine-learning workflows.
+- **Recurring interests:** chess engines, solvers, distributed systems, developer tools, and AI infrastructure.
 
-## GitHub Stats
+## GitHub Statistics
 
 <div align="center">
 
-| Stats | Languages |
-| --- | --- |
-| <img alt="HEKPYTO GitHub stats" src="https://readme-stats-hlgq.vercel.app/api?username=hekpyto&count_private=true&show_icons=true&theme=graywhite&hide_border=true" /> | <img alt="Top languages" src="https://readme-stats-hlgq.vercel.app/api/top-langs/?username=hekpyto&count_private=true&hide=jupyter%20notebook&layout=compact&theme=graywhite&hide_border=true" /> |
+<img alt="HEKPYTO GitHub stats" src="https://readme-stats-hlgq.vercel.app/api?username=hekpyto&count_private=true&show_icons=true&theme=graywhite&hide_border=true" />
+
+<img alt="Top languages" src="https://readme-stats-hlgq.vercel.app/api/top-langs/?username=hekpyto&count_private=true&hide=jupyter%20notebook&layout=compact&theme=graywhite&hide_border=true" />
 
 </div>
 
-## Connect
+## Links
 
 - GitHub: [@HEKPYTO](https://github.com/HEKPYTO)
 - Repositories: [github.com/HEKPYTO?tab=repositories](https://github.com/HEKPYTO?tab=repositories)
-- Collaboration: systems, engines, solvers, AI tooling, or strange little tools that deserve to exist.
+- Areas of collaboration: systems software, computational methods, applied AI tooling, engines, solvers, and research-oriented software infrastructure.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
