@@ -1,135 +1,95 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<a id="readme-top"></a>
 
-<a name="readme-top"></a>
-
-<!--
-*** Thanks for visiting my GitHub profile. If you'd like to connect or collaborate,
-*** feel free to reach out. Don't forget to star the repositories you find interesting! 🌟
-*** Have an awesome day and keep coding! 😄🚀
--->
-
-<!-- PROJECT TITLE -->
 <div align="center">
-  <h1>HEKPYTO</h1>
-  <p align="center">
-    Passionate about Data Science and AI 📊🤖
-    <br />
-    Let's innovate with data-driven solutions! 🚀💡
-    <br />
-    <a href="https://github.com/HEKYPTO?tab=repositories"><strong>Explore my projects »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/HEKYPTO?tab=repositories">View Demo</a>
-    ·
-    <a href="https://github.com/hekypto/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/hekypto/issues">Request Feature</a>
-  </p>
+
+# HEKPYTO
+
+**Systems-oriented software engineer building engines, solvers, infrastructure, and AI-aware software.**
+
+I like projects where correctness, performance, and product shape all matter: distributed services, game/search engines, optimization tools, applied AI/data pipelines, and full-stack systems that survive real use.
+
+[![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)](https://www.rust-lang.org/)
+[![Elixir](https://img.shields.io/badge/Elixir-4B275F?style=flat-square&logo=elixir&logoColor=white)](https://elixir-lang.org/)
+[![Zig](https://img.shields.io/badge/Zig-F7A41D?style=flat-square&logo=zig&logoColor=black)](https://ziglang.org/)
+[![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)](https://openjdk.org/)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+
 </div>
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents 📚</summary>
-  <ol>
-    <li><a href="#readme-introduction">Introduction</a></li>
-    <li><a href="#readme-about-me">About Me</a></li>
-    <li><a href="#readme-current-vision">Current Vision</a></li>
-    <li><a href="#readme-projects">Projects</a></li>
-    <li><a href="#readme-github-stats">GitHub Stats</a></li>
-    <li><a href="#readme-contributions">Contributions</a></li>
-    <li><a href="#readme-certifications-and-achievements">Certifications and Achievements</a></li>
-    <li><a href="#readme-lets-connect">Let's Connect</a></li>
-    <li><a href="#readme-acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
+## Current Orbit
 
-<!-- INTRODUCTION -->
-<a name="readme-introduction"></a>
+- Systems programming, distributed architecture, protocol design, and fault-tolerant services.
+- Engines, search, game logic, optimization, and algorithm-heavy problem solving.
+- AI/data work that ships as usable pipelines, evaluation tooling, or research prototypes.
+- Web software where the interface is only the surface of a deeper system.
 
-## Introduction 👋
+## Featured Work
 
-<div style="display: flex; align-items: center;">
-  <p>Hello there! 🙌 I'm HEKYPTO, a passionate Data Scientist and AI enthusiast. My goal is to harness the power of data and AI to create innovative solutions that have a meaningful impact.</p>
-</div>
+### Systems & Infrastructure
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+| Project | Stack | What it explores |
+| --- | --- | --- |
+| [IRONFISH](https://github.com/HEKPYTO/IRONFISH) | Rust | Distributed chess analysis with internal clustering, engine pooling, and gRPC/REST/GraphQL surfaces. |
+| [ZOW](https://github.com/HEKPYTO/ZOW) | Zig | A GNU Stow-style dotfile manager implementation focused on low-level tooling and filesystem ergonomics. |
 
-<!-- ABOUT ME -->
-<a name="readme-about-me"></a>
+### Engines & Optimization
 
-## About Me 🌟
+| Project | Stack | What it explores |
+| --- | --- | --- |
+| [ECHECS](https://github.com/HEKPYTO/ECHECS) | Elixir | Chess library for legal move generation, FEN/PGN support, and game-state modeling. |
+| [SHAKMATY](https://github.com/HEKPYTO/SHAKMATY) | Java | Chess engine work built around computation-heavy game modeling and abstraction design. |
+| [Enclose-Horse-Solver](https://github.com/HEKPYTO/Enclose-Horse-Solver) | C# | CP-SAT solver for the Enclose Horse daily puzzle, including portals, scoring items, and autosolve workflows. |
+| [ALGOPRO](https://github.com/HEKPYTO/ALGOPRO) | Python | Optimization of all-pairs minimax path algorithms for AI coursework and algorithm analysis. |
 
-- 🎓 Education: Studying B.Eng. Computer Engineering at Chulalongkorn University since 2021.
-- 🌱 Driven by a deep interest in <a href="#current-vision">Current Vision</a>.
-- 💼 Currently, I'm working on <a href="#active-projects">Active Projects</a>.
-- 💬 I'm open to discussion in <a href="#connect-with-me">Connect with me</a>.
+### Apps & Web Software
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+| Project | Stack | What it explores |
+| --- | --- | --- |
+| [MiniBlog](https://github.com/HEKPYTO/MiniBlog) | Astro, SQLite | Self-hosted blog platform with Markdown editing, RBAC, and Open Graph image generation. |
+| [ChessClouds](https://github.com/HEKPYTO/ChessClouds) | TypeScript | Modern cloud-integrated chess web application. |
+| [SQUAREDLE-SOLVER](https://github.com/HEKPYTO/SQUAREDLE-SOLVER) | Elixir, Phoenix LiveView | Puzzle solver using DFS and prefix tries behind an interactive LiveView interface. |
+| [COMETH_FENZ](https://github.com/COMETH-TEAM/COMETH_FENZ) | TypeScript | Front end for COMETH, focused on making machine-translation evaluation workflows easier to use. |
 
-<!-- CURRENT VISION -->
-<a name="readme-current-vision"></a>
+### AI, Data & Research
 
-## Current Vision 🔮
+| Project | Stack | What it explores |
+| --- | --- | --- |
+| [BTC-Genotype-Pipeline](https://github.com/HEKPYTO/BTC-Genotype-Pipeline) | Python | Bioinformatics pipeline for genotype association analysis, GENCODE mapping, and variant visualization. |
+| [MEET-MR](https://github.com/ChulaAI/MEET-MR) | Jupyter Notebook | AI research work through ChulaAI. |
 
-I am currently focusing on expanding my knowledge in several exciting domains:
+### Selected Experiments
 
-- **Machine Learning and AI**: 🤖🧠 I'm delving deeper into the realms of Machine Learning and Artificial Intelligence. Exploring algorithms, models, and applications that can transform raw data into intelligent insights.
+| Project | Stack | What it explores |
+| --- | --- | --- |
+| [GITHUB-VCS](https://github.com/HEKPYTO/GITHUB-VCS) | Java | Version-control-system concept project and interface experiment. |
+| [NPUTASK](https://github.com/HEKPYTO/NPUTASK) | Java | NPU simulator project for inheritance and system modeling practice. |
+| [TORRENTINE](https://github.com/HEKPYTO/TORRENTINE) | Java | Torrent simulator project for object-oriented design and distributed-behavior modeling. |
 
-- **Web Development**: 💻 I'm also exploring the dynamic realm of web development. Delving into front-end and back-end technologies, understanding web frameworks, and mastering the art of crafting interactive and responsive web applications.
+## Toolbox
 
-- **Linux Distros**: 🐧 With a curious mind for technology, I'm experimenting with various Linux distributions. Exploring their unique features, command-line tools, and the freedom they offer.
-
-This journey involves not only learning but also applying these concepts through hands-on projects and collaborations.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACTIVE PROJECTS -->
-<a name="readme-projects"></a>
-
-## Active Projects 🚀
-
-- [💻 Computer Programming C](https://github.com/HEKYPTO/) \*Works in progress
-- [💎 Computer Programming Ruby](https://github.com/HEKYPTO/ComputerProgrammingWithRuby)
-- [🚗 Traffic Jam Analysis](https://github.com/HEKYPTO/TrafficJam)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GITHUB STATS -->
-<a name="readme-github-stats"></a>
-
-## GitHub Stats 📊
-
-| <a href="https://github.com/HEKPYTO"><img align="center" src="https://readme-stats-hlgq.vercel.app/api?username=hekpyto&count_private=true&show_icons=true&theme=graywhite&hide_border=true"/></a> | <a href="https://github.com/HEKPYTO"><img align="center" src="https://readme-stats-hlgq.vercel.app/api/top-langs/?username=hekpyto&count_private=true&hide=jupyter%20notebook&layout=compact&theme=graywhite&hide_border=true"/></a> |
+| Area | Tools and interests |
 | --- | --- |
+| Systems | Rust, Zig, Elixir, Java, C#, Linux, Docker |
+| Backend & data | Python, Phoenix, REST, GraphQL, gRPC, SQLite, PostgreSQL |
+| Frontend | TypeScript, Astro, Svelte, Phoenix LiveView |
+| AI & research | Data pipelines, optimization, evaluation tooling, notebooks, applied ML workflows |
+| Interests | Chess engines, solvers, distributed systems, developer tools, AI infrastructure |
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## GitHub Stats
 
+<div align="center">
 
-<!-- CONTRIBUTIONS -->
-<a name="readme-contributions"></a>
+| Stats | Languages |
+| --- | --- |
+| <img alt="HEKPYTO GitHub stats" src="https://readme-stats-hlgq.vercel.app/api?username=hekpyto&count_private=true&show_icons=true&theme=graywhite&hide_border=true" /> | <img alt="Top languages" src="https://readme-stats-hlgq.vercel.app/api/top-langs/?username=hekpyto&count_private=true&hide=jupyter%20notebook&layout=compact&theme=graywhite&hide_border=true" /> |
 
-## Contributions 🌟
+</div>
 
-- [Void Seekers](https://github.com/vtneil/void_seekers) 🎮: A game development project in Java.
-- [Embed System for Wild Fire Detection](https://github.com/vtneil/emb_forest_fire) 🔥: An embedded system for detecting wildfires.
-- [Traffic Jam Prediction with Machine Learning and Time Series Analysis](https://github.com/poypythuncha/ML-project) 🚗🔍: Project that uses ML and time series analysis to predict traffic jams in certain areas.
-- [DEEP](https://github.com/KiraraGZ/DEEP): Survival Undersea 🌊🎮: A Unity game jam project set in the deep sea survival under the challenges of the ocean depths.
+## Connect
 
-More exciting projects coming soon, stay tuned! 🚀
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENT -->
-<a name="readme-acknowledgments"></a>
-
-## Acknowledgment 🎉
-
-Hats off and virtual high-fives to the following amazing folks:
-
-- [Ileriayo](https://github.com/Ileriayo) for the [markdown-badges](https://github.com/Ileriayo/markdown-badges) repository – a collection of rad stickers for your README! 🌟🎉
-
-- [Anurag Hazra](https://github.com/anuraghazra) for the [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) repo – because slick dynamic GitHub stats are the virtual flex we all secretly adore! 💪📈
-
-- And of course, huge props to my ride-or-die colleagues who've kept me caffeinated, sane, and on the emoji humor wavelength all the way through! 🙌👯‍♂️
+- GitHub: [@HEKPYTO](https://github.com/HEKPYTO)
+- Repositories: [github.com/HEKPYTO?tab=repositories](https://github.com/HEKPYTO?tab=repositories)
+- Collaboration: systems, engines, solvers, AI tooling, or strange little tools that deserve to exist.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
