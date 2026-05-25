@@ -74,10 +74,4 @@ My work is centered on the design and implementation of computational systems wh
 
 </div>
 
-## Links
-
-- GitHub: [@HEKPYTO](https://github.com/HEKPYTO)
-- Repositories: [github.com/HEKPYTO?tab=repositories](https://github.com/HEKPYTO?tab=repositories)
-- Areas of collaboration: systems software, computational methods, applied AI tooling, engines, solvers, and research-oriented software infrastructure.
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
